@@ -1,0 +1,18 @@
+left_links:
+  - name: Team
+    link: /team/
+  - name: Contact
+    link: /contact/
+right_links:
+  - name:
+    link: https://liu.se/en/organisation/liu/bkv/mmv
+    social_icon: LiU
+    new_window: true
+  - name:
+    link: https://www.linkedin.com/in/alexa-mcintyre-9b9647b8/
+    social_icon: LinkedIn
+    new_window: true
+  - name:
+    link: https://scholar.google.com/citations?user=uhKFN90AAAAJ&hl=en
+    social_icon: GoogleScholar
+    new_window: true
