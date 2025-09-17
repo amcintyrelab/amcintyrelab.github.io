@@ -1,8 +1,8 @@
 {% assign prefix = include.src | slice: 0, 2 %}
 {% assign protocol = include.src | slice: 0, 4 %}
 
-{% unless protocol == 'http' or protocol == 'https' or prefix == '//' %}
-  {{ site.baseurl }}/{{ include.src | remove_first: '/' }}
-{% else %}
+{% if protocol == 'http' or protocol == 'https' or prefix == '//' %}
   {{ include.src }}
-{% endunless %}
+{% else %}
+  {{ site.baseurl }}/{{ include.src | remove_first: '/' }}
+{% endif %}
