@@ -1,8 +1,8 @@
 left_links:
   - name: Team
-    link: /team/
+    link: ./about/
   - name: Contact
-    link: /contact/
+    link: ./contact/
 right_links:
   - name:
     link: https://liu.se/en/organisation/liu/bkv/mmv
